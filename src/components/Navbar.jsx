@@ -10,10 +10,10 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   }
   return (
-    <header className="bg-white">
-      <nav className="grid grid-cols-2 justify-items-end items-center w-[92%] mx-auto">
-        <div className="flex justify-self-start items-center gap-2">
-          <img className="w-16" src={logo} />
+    <header className="bg-white font-roboto">
+      <nav className="grid grid-cols-2 justify-items-end items-center w-[92%] mx-auto h-[10vh]">
+        <div className="flex justify-self-start items-center gap-2 text-3xl ">
+          <img className="w-16 " src={logo} />
           Céline Fougerouse
         </div>
         <div className="flex justify-self-end items-center gap-2">
