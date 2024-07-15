@@ -9,15 +9,15 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   }
   return (
-    <header className="font-roboto bg-lime">
-      <nav className="grid grid-cols-2 justify-items-end items-center w-[92%] mx-auto h-[13vh]">
+    <header className="font-roboto">
+      <nav className="grid grid-cols-2 justify-items-end items-center w-[92%] mx-auto h-[13vh] border-b-2">
         <div className="flex justify-self-start items-center text-3xl">
           <img className="w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32" src={LogoInitiales} alt="Logo Initiales" />
           Céline Fougerouse
         </div>
         <div className="flex justify-self-end items-center gap-2">
           <div
-            className={`gap-4 flex md:static absolute bg-lime md:min-h-fit right-0 items-center ${
+            className={`gap-4 flex md:static absolute md:min-h-fit right-0 items-center ${
               isMenuOpen ? "top-[90px] py-2" : "top-[-100%]"
             } md:w-auto w-full items-center px-5 transition-all duration-500`}
           >
@@ -39,7 +39,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="bg-[#222222] text-white px-5 py-2 hover:bg-[black]">
+          <div className="bg-green text-white px-5 py-2 hover:bg-lime">
             <a className="" href="#">
               Prendre RDV
             </a>

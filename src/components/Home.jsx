@@ -1,4 +1,4 @@
-import Logo from "../assets/Logo.svg";
+
 
 const Home = () => {
   return (
@@ -6,7 +6,7 @@ const Home = () => {
       <svg
         className="object-contain w-[50%]"
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="-65 0 600 352.07"
+        viewBox="-70 0 600 352.07"
       >
         <g id="Calque_2" data-name="Calque 2" className="fill-rose">
           <path
@@ -71,10 +71,10 @@ const Home = () => {
         <h1 className="mb-8 text-4xl font-bold leading-none tracking-tight text-rose md:text-5xl lg:text-6xl dark:text-white w-[15vw] text-center justify-center">
           Céline Fougerouse
         </h1>
-        <p className="mb-8 text-green leading-none tracking-tight font-bold">
+        <p className="mb-8 leading-none tracking-tight font-bold text-lg">
           Diététicienne et coach sportive
         </p>
-        <button className="mb-8 bg-slate-900 hover:bg-slate-950 text-white py-2 px-4 rounded font-bold">
+        <button className="mb-8 bg-green hover:bg-rose text-white py-2 px-4 rounded font-bold">
           Prendre RDV
         </button>
       </div>
