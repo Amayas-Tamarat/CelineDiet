@@ -6,7 +6,7 @@ const App = () => {
     <>
     <Navbar />
     <Home />
-    <Who />
+    {/* <Who /> */}
     </>
   )
 }

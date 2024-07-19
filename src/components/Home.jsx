@@ -1,12 +1,10 @@
-
-
 const Home = () => {
   return (
-    <div className="relative mt-6 flex justify-center">
+    <div className="relative mt-6">
       <svg
-        className="object-contain w-[50%]"
+        className="object-contain sm:w-[50%]"
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="-70 0 600 352.07"
+        viewBox="-88 15 600 352"
       >
         <g id="Calque_2" data-name="Calque 2" className="fill-rose">
           <path
@@ -67,14 +65,14 @@ const Home = () => {
           <path class="cls-2" d="M61.79,132.2l-5.41-9.59,5.41,9.59Z" />
         </g>
       </svg>
-      <div className="absolute inset-0 flex flex-col items-center justify-end h-[55vh]">
-        <h1 className="mb-8 text-4xl font-bold leading-none tracking-tight text-rose md:text-5xl lg:text-6xl dark:text-white w-[15vw] text-center justify-center">
+      <div className="absolute inset-0 flex flex-col items-center justify-center top-[65%] ">
+        <h1 className="mb-3 text-2xl font-bold text-rose w-[25%] text-right">
           Céline Fougerouse
         </h1>
-        <p className="mb-8 leading-none tracking-tight font-bold text-lg">
+        <p className="mb-8 font-bold text-sm text-center w-[40%] pl-5 ">
           Diététicienne et coach sportive
         </p>
-        <button className="mb-8 bg-green hover:bg-rose text-white py-2 px-4 rounded font-bold">
+        <button className="mb-8 collapse sm:visible bg-green hover:bg-rose text-white py-2 px-4 rounded font-bold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
           Prendre RDV
         </button>
       </div>
