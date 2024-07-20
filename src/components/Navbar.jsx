@@ -1,7 +1,7 @@
 import LogoInitiales from "../assets/LogoInitiales.png";
 import { CiMenuBurger } from "react-icons/ci";
 import { IoIosClose } from "react-icons/io";
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +12,11 @@ const Navbar = () => {
     <header className="font-roboto">
       <nav className="grid grid-cols-2 border-b-2 gap-6 xl:h-[14vh]  xl:items-center">
         <div className="flex items-center">
-          <img className="w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 " src={LogoInitiales} alt="Logo Initiales" />
+          <img
+            className="w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 "
+            src={LogoInitiales}
+            alt="Logo Initiales"
+          />
           <h1 className="text-xl sm:text-3xl">Céline Fougerouse</h1>
         </div>
         <div className="flex justify-self-end items-center gap-2">
