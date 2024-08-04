@@ -5,10 +5,10 @@ export default {
     colors: {
       rose: "#F2989F",
       green: "#C2DB9C",
-      cream: "#F2F4B5",
-      palerose : '#F4E2E3',
+      grey: "#514F59",
+      black: "#0C0B0D",
       lime : '#BD5663',
-      white : '#F5F4E1',
+      white : '#EBEBEB',
     },
     extend: {
       fontFamily: {
