@@ -10,14 +10,14 @@ const Navbar = () => {
   }
   return (
     <header className="font-roboto">
-      <nav className="grid grid-cols-2 border-b-2 xl:h-[14vh] xl:items-center xl:mt-[-4vh]">
-        <div className="flex items-center">
+      <nav className="grid grid-cols-2 border-b-2 xl:h-[14vh] xl:items-center xl:mt-[-4vh] text-rose">
+        <div className="flex items-center text-rose">
           <img
             className="w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 "
             src={LogoInitiales}
             alt="Logo Initiales"
           />
-          <h1 className="text-xl sm:text-3xl">Céline Fougerouse</h1>
+          <h1 className="text-xl sm:text-3xl text-rose">Céline Fougerouse</h1>
         </div>
         <div className="flex justify-self-end items-center gap-2">
           <div
@@ -43,7 +43,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="" href="#">
+          <a className="" href="https://www.doctolib.fr/">
             <div className="bg-green text-white px-5 py-2 hover:bg-lime xl:mr-4 mr-4 rounded-full text-center">
               Prendre RDV
             </div>

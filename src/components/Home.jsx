@@ -65,16 +65,16 @@ const Home = () => {
           <path class="cls-2" d="M61.79,132.2l-5.41-9.59,5.41,9.59Z" />
         </g>
       </svg>
-      <div className="absolute inset-0 flex flex-col items-center justify-center top-[65%] mt-6 xl:top-[30%] xl:left-[4%] sm:top-[40%]">
-        <h1 className="mb-1 text-2xl font-bold text-rose w-[25%] text-right xl:text-6xl xl:w-[25%] xl:text-center xl:mb-7 xl:mr-7 sm:text-4xl  sm:text-center sm:mb-7 sm:ml-8 sm:mt-5">
+      <div className="absolute inset-0 flex flex-col items-center justify-center top-[65%] mt-6 xl:top-[30%] xl:left-[4%] sm:top-[50%]">
+        <h1 className="text-2xl font-bold text-rose w-[25%] text-right xl:text-6xl xl:w-[25%] xl:text-center xl:mb-7 xl:mr-7 sm:text-4xl  sm:text-center sm:mb-9 sm:ml-8 sm:mt-6">
           Céline Fougerouse
         </h1>
-        <p className="mb-8 font-bold text-sm text-center w-[40%] pl-5 xl:text-xl xl:mr-8 sm:ml-7 sm:text-lg">
-          Diététicienne et coach sportive
+        <p className="collapse sm:visible font-bold text-sm text-center w-[40%] pl-5 xl:text-xl xl:mr-8 sm:text-lg sm:mb-8 sm:w-[20%] sm:mt-5 text-rose">
+          Diététicienne, professeure d'activités physiques adaptées
         </p>
-        <button className="mb-8 collapse xl:visible bg-green hover:bg-rose text-white py-2 px-4 rounded font-bold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 xl:mr-6">
+        <a href="https://www.doctolib.fr/" className="mb-8 collapse xl:visible bg-green hover:bg-rose text-white py-2 px-4 rounded font-bold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 xl:mr-6">
           Prendre RDV
-        </button>
+        </a> 
       </div>
     </div>
   );
