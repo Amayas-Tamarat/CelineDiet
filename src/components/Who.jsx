@@ -1,6 +1,7 @@
 import VueSalle from "../assets/VueSalle.png";
 
 const Who = () => {
+  
   return (
     <section className="grid gap-8 sm:grid-cols-2 sm:text-left sm:mx-8 mb-4 sm:pt-4 sm:ml-16 text-rose">
       <div className="flex justify-center items-center">

@@ -69,8 +69,8 @@ const Home = () => {
         <h1 className="text-2xl font-bold text-rose w-[25%] text-right xl:text-6xl xl:w-[25%] xl:text-center xl:mb-7 xl:mr-7 sm:text-4xl  sm:text-center sm:mb-9 sm:ml-8 sm:mt-6">
           Céline Fougerouse
         </h1>
-        <p className="collapse sm:visible font-bold text-sm text-center w-[40%] pl-5 xl:text-xl xl:mr-8 sm:text-lg sm:mb-8 sm:w-[20%] sm:mt-5 text-rose">
-          Diététicienne, professeure d'activités physiques adaptées
+        <p className=" sm:visible font-bold text-sm text-center w-[40%] pl-5 xl:text-xl xl:mr-8 sm:text-lg sm:mb-8 sm:w-[20%] sm:mt-5 text-rose">
+          Diététicienne, Professeure d'activités physiques adaptées
         </p>
         <a href="https://www.doctolib.fr/" className="mb-8 collapse xl:visible bg-green hover:bg-rose text-white py-2 px-4 rounded font-bold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 xl:mr-6">
           Prendre RDV
