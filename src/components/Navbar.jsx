@@ -27,18 +27,18 @@ const Navbar = () => {
           >
             <ul className="flex md:flex-row flex-col md:item-end md:gap-[4vw]">
               <li className="py-2">
-                <a className="hover:text-gray-500" href="#">
+                <a className="hover:text-gray-500" href="#Who">
                   À propos
                 </a>
               </li>
               <li className="py-2">
-                <a className="hover:text-gray-500" href="#" >
-                  Contact
+                <a className="hover:text-gray-500" href="#Services">
+                  Services
                 </a>
               </li>
               <li className="py-2">
-                <a className="hover:text-gray-500" href="#">
-                  Services
+                <a className="hover:text-gray-500" href="#Contact">
+                  Contact
                 </a>
               </li>
             </ul>

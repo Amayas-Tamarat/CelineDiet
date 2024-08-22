@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
+import { useEffect } from "react";
 import Modal from './Modal';
 import HomePhoto from "../assets/HomePhoto.jpg";
 
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const BoldText = ({ children }) => (
   <span className="font-bold">{children}</span>
@@ -15,7 +18,13 @@ const ColoredText = ({ color, children }) => (
   <span className={`font-bold text-xl text-${color}`}>{children}</span>
 );
 
+
 const Services = () => {
+
+  useEffect (() =>{
+    AOS.init({duration:1200})
+  }) 
+  
   const [modalInfo, setModalInfo] = useState({ showModal: false, title: '', content: null });
 
   const handleOpenModal = (title, content) => {
@@ -29,16 +38,20 @@ const Services = () => {
 
   const Underline = ({ children }) => (
     <span className={'underline'}>{children}</span>
+
+    
   )
+  
 
   return (
-    <div>
+    
+    <div id='Services'>
       <div className="mx-9">
-        <h1 className="text-5xl mb-8 flex justify-center font-semibold sm:justify-start sm:text-7xl sm:ml-8 text-rose">
+        <h1 className="text-5xl mb-8 flex justify-center font-semibold sm:justify-start sm:text-7xl sm:ml-8 text-rose" data-aos="fade-up">
           Mes services
         </h1>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mx-9">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mx-9" data-aos="fade-up">
         <div className="flex flex-col items-center text-center">
           <img
             src={HomePhoto}
@@ -211,7 +224,7 @@ const Services = () => {
                       <p>25 euros/séance</p>
                     </div>
 
-                    <p className='mb-2'>
+                    <p className="mb-2">
                       Moyen de reglement : espèce, chèque ou virement bancaire
                     </p>
                     <br></br>
@@ -291,69 +304,61 @@ const Services = () => {
                   <p className="mt-4 mb-4">
                     Cet appareil permet de mesurer de façon précise et
                     scientifique votre taux de masse grasse, de masse
-                    musculaire, l'eau totale présente dans votre corps …
-                  </p>
-                  <p className="mb-4">
+                    musculaire, l'eau totale présente dans votre corps.<br></br>
                     Au contraire des balances grand public du commerce, le
                     BiodyExpert est un impédancemètre professionnel bénéficiant
                     d'un marquage CE médical, garantissant une réelle précision
-                    des résultats.
-                  </p>
-                  <p className="mb-4">
-                    Le principe de la mesure de composition corporelle
+                    des résultats.<br></br>
                     L'appareil émet un courant de faible intensité et totalement
                     indolore, qui traverse les différents tissus de votre corps.
                     Ces tissus ne présentant pas la même conductivité,
-                    l'appareil en déduit alors votre composition corporelle. En
-                    fonction, de vos objectifs, j'analyse avec vous les données
-                    du bilan corporel complet Puis, tout au long de votre suivi,
-                    nous réalisons des mesures et analysons les résultats
-                    obtenus. J'utilise alors ces données afin d'adapter mes
-                    conseils.
+                    l'appareil en déduit alors votre composition corporelle.
                   </p>
-                  <p className="mb-4">
-                    Attention contre-indiqué pour les femmes enceintes et les
-                    personnes ayant des dispositifs médicaux tels que des
-                    pacemakers
-                  </p>
-                  <p className='mb-4'>
-                    Les applications sont multiples.<br></br> En premier lieu,
-                    la mesure de composition corporelle est un bon outil de
+                  <ul className='mb-4'>
+                    <ColoredText color="rose">
+                      {" "}
+                      Multiples applications{" "}
+                    </ColoredText>
+                  </ul>
+                  <li>
+                    La mesure de composition corporelle est un bon outil de
                     suivi et de motivation dans le cadre d'un projet de perte de
-                    poids.<br></br> Il nous permet notamment de nous assurer que
-                    la perte de poids s'effectue en puisant dans la masse
-                    graisseuse tout en préservant votre masse musculaire.
-                    <br></br> L'utilisation d'un impédancemètre peut aussi
-                    représenter un réel intérêt dans le dépistage et la prise en
-                    charge de la dénutrition ou de la sarcopénie grâce à
-                    l'analyse de l'index de masse musculaire (suite aux
-                    dernières recommandations de la HAS). Il est donc un outil
-                    précis et validé pour améliorer sa santé au cours du
-                    vieillissement ou en cas de maladies chroniques telles que
-                    des cancers, des maladies digestives, etc… <br></br> C'est
-                    également un outil extrêmement précieux dans le suivi
-                    nutritionnel des sportif l'impédancemétrie permet
-                    d'optimiser l'entrainement et la stratégie nutritionnelle et
-                    d'hydratation pour améliorer la répartition corporelle et
-                    les performances.<br></br>
-                    En période de préparation, elle vous permet d'optimiser
-                    l'affutage afin que celui-ci ne se fasse pas au détriment de
-                    votre masse musculaire.<br></br> Elle permet également de
-                    détecter la fatigue musculaire, le surentrainement afin de
-                    limiter le risque de blessures.<br></br> Après une blessure,
-                    elle vous permet d'évaluer avec précision la fonte
-                    musculaire associée à l'immobilisation pour vous aider à
-                    adapter votre programme de rééducation et votre
-                    alimentation. Enfin, c'est un outil formidable sur la
-                    motivation à la fois à maintenir de bonnes habitudes
-                    alimentaires mais aussi une activité physique régulière dans
-                    l'objectif de vous permettre de prendre soin de votre santé.
-                  </p>{" "}
-                  <p className='mb-4'>Les mesures d'impédancemétrie sont inclus dans les suivis
-                  nutritionnels.<br></br>
-                  Vous pouvez également me solliciter pour
-                  réaliser une mesure hors suivi sans consultation diététique</p>
-                  <p>Tarif 20 euros sans conseil alimentaire</p>
+                    poids. Il nous permet notamment de nous assurer que la perte
+                    de poids s'effectue en puisant dans la masse graisseuse tout
+                    en préservant votre masse musculaire.
+                  </li>
+                  <li>
+                    Un réel intérêt dans le dépistage et la prise en charge de
+                    la dénutrition ou de la sarcopénie grâce à l'analyse de
+                    l'index de masse musculaire (suite aux dernières
+                    recommandations de la HAS). Il est donc un outil précis et
+                    validé pour améliorer sa santé au cours du vieillissement ou
+                    en cas de maladies chroniques telles que des cancers, des
+                    maladies digestives, etc…
+                  </li>
+                  <li>
+                    Dans le suivi nutritionnel des sportifs l'impédancemétrie
+                    permet d'optimiser l'entrainement et la stratégie
+                    nutritionnelle et d'hydratation pour améliorer la
+                    répartition corporelle et les performances. En période de
+                    préparation, elle vous permet d'optimiser l'affutage afin
+                    que celui-ci ne se fasse pas au détriment de votre masse
+                    musculaire. Elle permet également de détecter la fatigue
+                    musculaire, le surentrainement afin de limiter le risque de
+                    blessures.
+                  </li>
+                  <p className="mt-6 mb-4">
+                    Les mesures d’impédancemétrie sont inclus dans les suivis
+                    nutritionnels.<br></br>
+                    Vous pouvez également me solliciter pour réaliser une mesure
+                    hors suivi sans consultation diététique
+                  </p>
+                  <p>
+                    <span className='font-bold'>Tarif 20 euros sans consultation diététique</span><br></br>
+                    <span className='italic'>Attention contre-indiqué pour les femmes enceintes et les
+                    personnes ayant des dispositifs médicaux tels que des
+                    pacemakers</span>
+                  </p>
                 </>
               )
             }

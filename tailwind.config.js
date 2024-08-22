@@ -9,6 +9,7 @@ export default {
       black: "#0C0B0D",
       lime : '#BD5663',
       white : '#EBEBEB',
+      blue : "#042940"
     },
     extend: {
       fontFamily: {

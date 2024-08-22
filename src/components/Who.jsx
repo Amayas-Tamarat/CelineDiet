@@ -1,9 +1,17 @@
+import { useEffect } from "react";
 import VueSalle from "../assets/VueSalle.png";
 
+
+import AOS from 'aos';
+import "aos/dist/aos.css";
 const Who = () => {
+
+  useEffect (() =>{
+    AOS.init({duration:1200})
+  }) 
   
   return (
-    <section className="grid gap-8 sm:grid-cols-2 sm:text-left sm:mx-8 mb-4 sm:pt-4 sm:ml-16 text-rose">
+    <section className="grid gap-8 sm:grid-cols-2 sm:text-left sm:mx-8 mb-4 sm:pt-4 sm:ml-16 text-rose" id="Who" data-aos="fade-up">
       <div className="flex justify-center items-center">
         <img className="h-48 rounded-lg sm:h-[100%] sm:ml-5" src={VueSalle} />
       </div>
