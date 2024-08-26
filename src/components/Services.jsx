@@ -68,7 +68,7 @@ const Services = () => {
                     Les consultations peuvent concerner tout le monde : perte de
                     poids, prise de masse musculaire, prévention du diabète, du
                     cholestérol, alimentation adaptée à une maladie digestive,
-                    rénale ou métabolique accompagnement de l'alimentation
+                    rénale ou métabolique, accompagnement de l'alimentation
                     pendant la grossesse ou l'allaitement, transition vers un
                     mode d'alimentation végétarien ou végétalien…
                   </p>
@@ -166,7 +166,7 @@ const Services = () => {
                 <>
                   Avant chaque programme d'activité physique, je vous propose un
                   bilan intial afin d'évaluer vos capacités physiques et vos
-                  besoin. L'objectif est de vous redonner l'envie de bouger en
+                  besoins. L'objectif est de vous redonner l'envie de bouger en
                   vous accompagnant sur une ou plusieurs séances. Les séances
                   sont adaptées à vos besoins, vos capacités et vos pathologies.
                   Les différents objectifs sur lesquels je peux vous accompagner
@@ -175,7 +175,7 @@ const Services = () => {
                     <li>Reprise d'une activité physique sans blessure</li>
                     <li>Débuter une activité physique</li>
                     <li>Prise de masse musculaire</li>
-                    <li> Perte de poids</li>
+                    <li>Perte de poids</li>
                     <li>Renforcement musculaire</li>
                     <li>
                       Reprise de la course à pied ou amélioration de vos
@@ -184,7 +184,7 @@ const Services = () => {
                   </ul>
                   <br></br>
                   <br></br>
-                  <ColoredText color="rose">Tarif</ColoredText>
+                  <ColoredText color="rose">Tarifs</ColoredText>
                   <br></br>
                   <div className="grid sm:grid-cols-3 mt-5">
                     <div className="flex flex-col items-center text-center mb-2">
@@ -219,13 +219,13 @@ const Services = () => {
                     </div>
                     <div className="flex flex-col items-center text-center mb-4">
                       <p>
-                        <BoldText>10 séance marche nordique</BoldText>
+                        <BoldText>10 séances marche nordique</BoldText>
                       </p>
                       <p>25 euros/séance</p>
                     </div>
 
                     <p className="mb-2">
-                      Moyen de reglement : espèce, chèque ou virement bancaire
+                      Moyen de reglement : espèces, chèque ou virement bancaire
                     </p>
                     <br></br>
                     <br></br>
@@ -264,7 +264,7 @@ const Services = () => {
                     reconnus de bien-être et de bonne santé.
                   </p>
                   <p className="">
-                    Car la nutrition s'associe parfaitement avec le sport vous
+                    En effet, la nutrition s'associe parfaitement avec le sport vous
                     apportant confiance en soi et une motivation supplémentaire
                     pour mener à bien votre parcours de remise en forme.
                   </p>
@@ -337,7 +337,7 @@ const Services = () => {
                     maladies digestives, etc…
                   </li>
                   <li>
-                    Dans le suivi nutritionnel des sportifs l'impédancemétrie
+                    Dans le suivi nutritionnel des sportifs, l'impédancemétrie
                     permet d'optimiser l'entrainement et la stratégie
                     nutritionnelle et d'hydratation pour améliorer la
                     répartition corporelle et les performances. En période de
@@ -348,7 +348,7 @@ const Services = () => {
                     blessures.
                   </li>
                   <p className="mt-6 mb-4">
-                    Les mesures d’impédancemétrie sont inclus dans les suivis
+                    Les mesures d'impédancemétrie sont incluses dans les suivis
                     nutritionnels.<br></br>
                     Vous pouvez également me solliciter pour réaliser une mesure
                     hors suivi sans consultation diététique

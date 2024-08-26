@@ -19,7 +19,7 @@ const Who = () => {
         <h1 className="text-5xl mb-8 flex justify-center font-semibold sm:justify-start sm:text-7xl">Qui suis-je?</h1>
         <p className="text-justify leading-loose text-grey sm:w-[75%] sm:text-2xl sm:leading-10">
           Forte de mes deux compétences, la Diététique reconnue par un BTS
-          Diététique et le Sport par une licence STAPS option Activités physique adaptées, ma double qualification vous apportera une
+          Diététique et le Sport par une licence STAPS option Activités physiques adaptées, ma double qualification vous apportera une
           expertise complète et qualitative. Je vous propose des consultations diététiques et/ou des séances pratiques de sport adapté. Les prises en
           charge s'adressent à toutes personnes atteintes de pathologies chroniques, digestives ou métaboliques ou à tous ceux désireux de
           retrouver une alimentation équilibrée et le plaisir de bouger
