@@ -43,7 +43,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="" href="https://www.doctolib.fr/">
+          <a className="" href="https://www.doctolib.fr/dieteticien/andrezieux-boutheon/celine-fougerouse">
             <div className="bg-green text-white px-5 py-2 hover:bg-lime xl:mr-4 mr-4 rounded-full text-center">
               Prendre RDV
             </div>

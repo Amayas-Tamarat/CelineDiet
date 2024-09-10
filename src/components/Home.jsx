@@ -73,7 +73,7 @@ const Home = () => {
           Diététicienne, Professeure d'activités physiques adaptées
         </p>
         <a
-          href="https://www.doctolib.fr/"
+          href="https://www.doctolib.fr/dieteticien/andrezieux-boutheon/celine-fougerouse"
           className="mb-8 collapse xl:visible bg-green hover:bg-rose text-white py-2 px-4 rounded font-bold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 xl:mr-6"
         >
           Prendre RDV
