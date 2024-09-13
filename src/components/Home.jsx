@@ -6,11 +6,11 @@ const Home = () => {
       <picture className="xl:w-[50%] mx-6 flex justify-center items-center">
         <source
           media="(min-width: 640px)"
-          srcSet="/src/assets/LogoGrand.png"
+          srcSet="/LogoGrand.png"
           type="image/png"
         />
         <img
-          src="/src/assets/Logo.png"
+          src="/Logo.png"
           alt="Illustration décorative"
           className="w-full h-auto"
         />
