@@ -20,8 +20,8 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-blue text-white p-4" id="Contact" data-aos="fade-up">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div className="bg-blue text-white p-4 " id="Contact" data-aos="fade-up">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
         {/* Section Contact */}
         <div className="flex flex-col items-center text-center gap-4">
           <h1 className="text-green font-bold text-xl sm:text-2xl">Contact</h1>
