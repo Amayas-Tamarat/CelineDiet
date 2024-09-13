@@ -66,10 +66,10 @@ const Home = () => {
         </g>
       </svg>
       <div className="absolute  inset-0 flex flex-col items-center justify-center top-[46%] mt-6 xl:top-[30%] xl:left-[4%] sm:top-[50%]">
-        <h1 className="text-2xl leading-5 font-bold text-rose w-[25%] text-right xl:text-6xl xl:w-[25%] xl:text-center xl:mb-7 xl:mr-7 sm:text-4xl  sm:text-center sm:mb-9 sm:ml-8 sm:mt-6">
+        <h1 className="text-xl ml-6 leading-5 font-bold text-rose w-[30%] text-center xl:text-6xl xl:w-[25%] xl:text-center xl:mb-7 xl:mr-7 sm:text-4xl  sm:text-center sm:mb-9 sm:ml-8 sm:mt-6 md:text-5xl md:leading-10 md:mt-2 md:mb-2 md:text-center lg:text-center lg:text-4xl lg:ml-11">
           Céline Fougerouse
         </h1>
-        <p className="sm:visible font-bold text-xs text-center w-[40%] mt-2 pl-5 xl:text-xl xl:mr-8 sm:text-lg sm:mb-8 sm:w-[20%] sm:mt-5 text-rose">
+        <p className="sm:visible font-bold text-xs md:text-xl md:w-[30%] md:ml-6 text-center w-[40%] mt-2 pl-5 xl:text-xl xl:mr-8 sm:text-lg sm:mb-8 sm:w-[20%] sm:mt-5 text-rose lg:w-[20%]">
           Diététicienne, Professeure d'activités physiques adaptées
         </p>
         <a

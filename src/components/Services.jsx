@@ -61,7 +61,7 @@ const Services = () => {
       >
         <div className="flex flex-col items-center text-center">
           <svg
-            className="h-44 w-44 mb-4 hover:-translate-y-1 hover:scale-110 duration-300"
+            className="cursor-pointer h-44 w-44 mb-4 hover:-translate-y-1 hover:scale-110 duration-300"
             viewBox="0 0 512 512"
             onClick={() =>
               handleOpenModal(
@@ -276,7 +276,7 @@ const Services = () => {
         </div>
         <div className="flex flex-col items-center text-center">
           <svg
-            className="h-44 w-44 mb-4 hover:-translate-y-1 hover:scale-110 duration-300"
+            className="cursor-pointer h-44 w-44 mb-4 hover:-translate-y-1 hover:scale-110 duration-300"
             viewBox="0 0 512 512"
             onClick={() =>
               handleOpenModal(
@@ -481,7 +481,7 @@ const Services = () => {
         </div>
         <div className="flex flex-col items-center text-center">
           <svg
-            className="h-44 w-44 mb-4 hover:-translate-y-1 hover:scale-110 duration-300"
+            className="cursor-pointer h-44 w-44 mb-4 hover:-translate-y-1 hover:scale-110 duration-300"
             viewBox="0 0 512 512"
             onClick={() =>
               handleOpenModal(
@@ -598,7 +598,7 @@ const Services = () => {
         </div>
         <div className="flex flex-col items-center text-center">
           <svg
-            className="h-44 w-44 mb-4 hover:-translate-y-1 hover:scale-110 duration-300"
+            className="cursor-pointer h-44 w-44 mb-4 hover:-translate-y-1 hover:scale-110 duration-300"
             viewBox="0 0 512 512"
             onClick={() =>
               handleOpenModal(
