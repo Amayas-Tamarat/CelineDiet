@@ -501,24 +501,28 @@ const Services = () => {
                     C'est pourquoi je vous propose des formules permettant une
                     prise en charge globale.
                   </p>
-                  <h2 className="mb-4">
+                  {/* <h2 className="mb-4">
                     {" "}
-                    <ColoredText color="rose">Abonnement 6 mois</ColoredText>
+                    <ColoredText color="rose">
+                      Abonnement OR (engagement 6 mois)
+                    </ColoredText>
                   </h2>
                   <p className="mb-4">
                     {" "}
                     Comprenant 2 heures d'activités physiques adaptées/semaine +
-                    1 consultation diététique/mois 50 euros le bilan + 150
-                    euros/mois
+                    1 consultation diététique/mois <br></br> 50 euros le bilan +
+                    100 euros/mois
                   </p>
                   <h2 className="mb-4">
-                    <ColoredText color="rose">Abonnement 6 mois</ColoredText>
+                    <ColoredText color="rose">
+                      Abonnement ARGENT (engagement 6 mois)
+                    </ColoredText>
                   </h2>
                   <p className="mb-4">
                     Comprenant 1 heure d'activités physiques adaptées/ semaine +
-                    1 consultation diététique/mois 50 euros le bilan + 100
-                    euros/mois
-                  </p>
+                    1 consultation diététique/mois <br></br> 50 euros le bilan +
+                    80 euros/mois
+                  </p> */}
                 </>
               )
             }
@@ -571,24 +575,28 @@ const Services = () => {
                     C'est pourquoi je vous propose des formules permettant une
                     prise en charge globale.
                   </p>
-                  <h2 className="mb-4">
+                  {/* <h2 className="mb-4">
                     {" "}
-                    <ColoredText color="rose">Abonnement 6 mois</ColoredText>
+                    <ColoredText color="rose">
+                      Abonnement OR (engagement 6 mois)
+                    </ColoredText>
                   </h2>
                   <p className="mb-4">
                     {" "}
                     Comprenant 2 heures d'activités physiques adaptées/semaine +
-                    1 consultation diététique/mois 50 euros le bilan + 150
-                    euros/mois
+                    1 consultation diététique/mois <br></br> 50 euros le bilan +
+                    100 euros/mois
                   </p>
                   <h2 className="mb-4">
-                    <ColoredText color="rose">Abonnement 6 mois</ColoredText>
+                    <ColoredText color="rose">
+                      Abonnement ARGENT (engagement 6 mois)
+                    </ColoredText>
                   </h2>
                   <p className="mb-4">
                     Comprenant 1 heure d'activités physiques adaptées/ semaine +
-                    1 consultation diététique/mois 50 euros le bilan + 100
-                    euros/mois
-                  </p>
+                    1 consultation diététique/mois <br></br> 50 euros le bilan +
+                    80 euros/mois
+                  </p> */}
                 </>
               )
             }
