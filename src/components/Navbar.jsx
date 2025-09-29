@@ -1,7 +1,7 @@
 import LogoInitiales from "../assets/LogoInitiales.png";
 import { CiMenuBurger } from "react-icons/ci";
 import { IoIosClose } from "react-icons/io";
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,7 +10,7 @@ const Navbar = () => {
   }
   return (
     <header className="font-roboto">
-      <nav className="grid grid-cols-2 border-b-2 xl:h-[14vh] xl:items-center xl:mt-[-4vh] text-rose">
+        <nav className="relative flex justify-between items-center border-b-2 text-rose bg-white h-20 px-4 md:px-8">
         <div className="flex items-center text-rose">
           <img
             className="w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 "
