@@ -12,11 +12,11 @@ const Navbar = () => {
     <header className="font-roboto">
         <nav className="relative flex justify-between items-center border-b-2 text-rose bg-white h-20 px-4 md:px-8">
         <div className="flex items-center text-rose">
-          <img
-            className="w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 "
-            src={LogoInitiales}
-            alt="Logo Initiales"
-          />
+            <img
+                className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-20"
+                src={LogoInitiales}
+                alt="Logo Initiales"
+            />
           <h1 className="text-xl sm:text-3xl text-rose">Céline Fougerouse</h1>
         </div>
         <div className="flex justify-self-end items-center gap-2">
