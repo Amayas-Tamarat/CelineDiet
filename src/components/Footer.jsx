@@ -1,4 +1,3 @@
-import React from "react";
 
 const Footer = () => {
     // Fonction pour copier l'adresse email
@@ -12,11 +11,9 @@ const Footer = () => {
                 console.error("Erreur lors de la copie :", err);
             });
     };
-
     return (
         <div className="bg-blue text-white p-4" id="Contact">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
-                {/* Contact */}
                 <div className="flex flex-col items-center text-center gap-4">
                     <h1 className="text-green font-bold text-xl sm:text-2xl">Contact</h1>
                     <div
@@ -46,8 +43,6 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-
-                {/* Adresse */}
                 <div className="flex flex-col items-center text-center gap-4">
                     <h1 className="text-green font-bold text-xl sm:text-2xl">Adresse</h1>
                     <div className="text-lg underline hover:text-green">
