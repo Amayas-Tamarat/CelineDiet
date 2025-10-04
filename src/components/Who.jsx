@@ -23,8 +23,6 @@ const Who = () => {
                         alt="Celine"
                     />
                 </div>
-
-                {/* Text */}
                 <div
                     className="space-y-6 md:space-y-8 text-grey text-base sm:text-lg md:text-xl leading-loose text-justify max-w-3xl"
                     data-aos="fade-up"
