@@ -9,13 +9,6 @@ const BoldText = ({ children }) => (
   <span className="font-bold">{children}</span>
 );
 
-const TextXL = ({ children }) => (
-  <span className="text-xl font-extrabold">{children}</span>
-);
-
-const ColoredText = ({ color, children }) => (
-  <span className={`font-bold text-xl text-${color}`}>{children}</span>
-);
 
 const Services = () => {
   useEffect(() => {
