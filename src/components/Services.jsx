@@ -137,7 +137,7 @@ const Services = () => {
                                           className="bg-green hover:bg-lime text-white font-bold text-lg px-8 py-4 rounded-full shadow-lg
                   hover:shadow-xl transition-all duration-300 hover:scale-105 hover:ring-4 hover:ring-green/30"
                                       >
-                                          📅 Prendre rendez-vous sur Doctolib
+                                          📅 Prendre rendez-vous
                                       </a>
                                   </div>
                               </section>
@@ -262,7 +262,7 @@ const Services = () => {
                                           className="bg-green hover:bg-lime text-white font-bold text-xl px-8 py-4 rounded-full shadow-lg
                    hover:shadow-xl transition-all duration-300 hover:scale-105 hover:ring-4 hover:ring-green/30"
                                       >
-                                          📅 Prendre rendez-vous sur Doctolib
+                                          📅 Prendre rendez-vous
                                       </a>
                                   </div>
                               </section>
@@ -366,7 +366,7 @@ const Services = () => {
                                       className="bg-green hover:bg-lime text-white font-bold text-xl px-8 py-4 rounded-full shadow-lg
                 hover:shadow-xl transition-all duration-300 hover:scale-105 hover:ring-4 hover:ring-green/30"
                                   >
-                                      📅 Prendre rendez-vous sur Doctolib
+                                      📅 Prendre rendez-vous
                                   </a>
                               </div>
                           </section>
@@ -477,7 +477,7 @@ const Services = () => {
                                   className="bg-green hover:bg-lime text-white font-bold text-lg px-8 py-4 rounded-full shadow-lg
           hover:shadow-xl transition-all duration-300 hover:scale-105 hover:ring-4 hover:ring-green/30"
                               >
-                                  📅 Prendre rendez-vous sur Doctolib
+                                  📅 Prendre rendez-vous
                               </a>
                           </div>
 
