@@ -16,16 +16,13 @@ const Contact = () => {
                     ou simplement échanger ? N’hésitez pas à me contacter via les moyens ci-dessous.
                 </p>
             </div>
-
             <div className="mt-16 grid sm:grid-cols-3 gap-8 max-w-5xl mx-auto">
-
                 <div className="bg-white p-8 rounded-2xl shadow-md border-l-4 border-rose text-center hover:shadow-lg transition-all duration-300 hover:scale-[1.02]">
                     <div className="flex justify-center gap-4 mb-4">
                         <FiPhone className="text-rose w-8 h-8" />
                         <FiMail className="text-rose w-8 h-8" />
                     </div>
                     <h3 className="text-xl font-semibold text-rose mb-2">Contacts</h3>
-
                     <div className="space-y-2">
                         <a
                             href="tel:+33668475597"
@@ -41,7 +38,6 @@ const Contact = () => {
                         </a>
                     </div>
                 </div>
-
                 <div className="bg-white p-8 rounded-2xl shadow-md border-l-4 border-lime text-center hover:shadow-lg transition-all duration-300 hover:scale-[1.02]">
                     <FiClock className="text-lime w-8 h-8 mx-auto mb-4" />
                     <h3 className="text-xl font-semibold text-lime mb-2">Horaires</h3>
@@ -60,7 +56,6 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-
                 <div className="bg-white p-8 rounded-2xl shadow-md border-l-4 border-green text-center hover:shadow-lg transition-all duration-300 hover:scale-[1.02]">
                     <FiMapPin className="text-green w-8 h-8 mx-auto mb-4" />
                     <h3 className="text-xl font-semibold text-green mb-2">Adresse</h3>
@@ -76,11 +71,7 @@ const Contact = () => {
                     </a>
                     <p className="text-sm italic mt-2">(au premier étage avec ascenseur)</p>
                 </div>
-
-
             </div>
-
-            {/* --- CTA --- */}
             <div className="flex justify-center mt-16">
                 <a
                     href="https://www.doctolib.fr/dieteticien/andrezieux-boutheon/celine-fougerouse"

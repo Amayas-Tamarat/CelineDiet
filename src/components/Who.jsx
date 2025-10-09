@@ -15,7 +15,6 @@ const Who = () => {
             data-aos="fade-up"
         >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                {/* Image */}
                 <div className="flex justify-center md:justify-start">
                     <img
                         className="h-72 sm:h-80 md:h-auto md:max-h-[70vh] lg:max-h-[80vh] object-cover rounded-2xl shadow-xl"
@@ -30,8 +29,6 @@ const Who = () => {
                     <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-rose text-center md:text-left">
                         Qui suis-je ?
                     </h1>
-
-                    {/* Formation */}
                     <div>
                         <h2 className="font-semibold text-rose mb-2">🎓 Formation</h2>
                         <p>
@@ -43,8 +40,6 @@ const Who = () => {
                             vous apportera une expertise complète et qualitative.
                         </p>
                     </div>
-
-                    {/* Expérience */}
                     <div>
                         <h2 className="font-semibold text-rose mb-2">💼 Expérience</h2>
                         <ul className="list-disc list-inside space-y-2">
@@ -64,8 +59,6 @@ const Who = () => {
                             <li>Entraîneur d&apos;athlétisme et de marche nordique</li>
                         </ul>
                     </div>
-
-                    {/* Cabinet */}
                     <div>
                         <h2 className="font-semibold text-rose mb-2">🏠 Cabinet</h2>
                         <p>
@@ -81,8 +74,6 @@ const Who = () => {
                             (<span className="font-semibold">Loire 42</span>).
                         </p>
                     </div>
-
-                    {/* Handicap */}
                     <div>
                         <h2 className="font-semibold text-rose mb-2">🌍 Accessibilité</h2>
                         <p>

@@ -34,7 +34,6 @@ const Modal = ({ showModal, onClose, title, children }) => {
                 className="bg-white rounded-lg shadow-xl w-full max-w-3xl h-[80vh] overflow-hidden relative flex flex-col"
                 onClick={(e) => e.stopPropagation()}
             >
-                {/* Close button always visible */}
                 <button
                     onClick={onClose}
                     className="absolute top-3 right-3 text-gray-700 hover:text-gray-900 text-2xl font-bold transition"
@@ -42,13 +41,9 @@ const Modal = ({ showModal, onClose, title, children }) => {
                 >
                     &times;
                 </button>
-
-                {/* Header */}
                 <div className="flex justify-between items-center p-6 border-b">
                     <h2 className="text-2xl font-bold">{title}</h2>
                 </div>
-
-                {/* Content scrollable */}
                 <div className="p-6 overflow-auto flex-1">
                     {children}
                 </div>
